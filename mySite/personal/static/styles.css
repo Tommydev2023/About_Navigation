@@ -1,0 +1,31 @@
+/* This is the main body styling */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+/* This class is used to create a flexible container that takes up 
+the remaining space */
+.container {
+    flex: 1;
+  }
+
+/* Styling for all heading elements */
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+  }
+
+/* Styling for paragraph, list items, and anchor tags */
+p, li, a{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+  }
+
+/* Styling for a background image */
+.b-img {
+    background: url("/static/images/white_background.jpg"); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+  }
