@@ -20,7 +20,7 @@ from personal.views import about, contact, services
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('personal/', include('personal.urls')),
-    path('about/', about, name='about'),
+    path('', about, name='about'),
     path('contact/', contact, name='contact'),
     path('services/', services, name='services')
     # Add other URL patterns here
